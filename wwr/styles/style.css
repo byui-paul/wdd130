@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+:root {
+    --headline-font: "Merriweather";
+    --body-font:Roboto, Helvetica, sans-serif;
+    
+}
 #content{
     max-width: 1600px;
     margin:0 auto;
@@ -7,12 +13,18 @@ nav a {
     color: white;
     text-decoration: none;
 }
+.card-img{
+    border: 10px solid #fce172;
+}
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
 .button-box{
     text-align: center;
     
+}
+main section img{
+    box-sizing: border-box;
 }
 main section{
     text-align: center;
@@ -22,6 +34,9 @@ main section{
 }
 body{
     background-color: #7dc4d5;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color: #778c99;
@@ -32,27 +47,51 @@ nav a:hover{
 }
 .home-title{
     color: #154467;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.rivers-card,.camping-card, .rapids-card{
+    margin: 200px 0;
+}
+h1{
+    font-family: var(--headline-font);
 }
 h4{
     color: white;
+    font-family: var(--body-font);
 }
 .join, .book {
     color:#154467 ;
     text-decoration: none;
+    font-family: var(--headline-font);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover,.join:hover{
     color: white;
     background-color: #fce172;
+    font-family: var(--body-font);
 }
 .msg h2{
     color: #154467;
 }
 .msg p{
     color: black;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer{
     color: #154467;
+    padding: 25px 50px;
+}
+nav a{
+    padding: 35px;
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer a{
     color: #fce172;
@@ -67,6 +106,12 @@ footer a:hover{
     width: 80px;
 }
 .icon{
+    padding-top: 10px;
+}
+#logo_link{
+    padding:5px;
+}
+.icon{
     width: 80px;
 }
 #hero-img{
@@ -74,4 +119,15 @@ footer a:hover{
 }
 footer p a:hover{
     text-decoration: underline;
+    font-family: var(--headline-font);
+}
+h2{
+    font-family: var(--body-font);
+    margin: 0;
+}
+p{
+    font-family: var(--headline-font);
+}
+.msg{
+    line-height: 1.5em;
 }
