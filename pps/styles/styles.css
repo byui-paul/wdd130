@@ -16,7 +16,7 @@ nav a{
 }
 h1{
     font-family: var(--headline-font);
-    color: #1d5d4d;
+    color: #ccc4b8;
     margin: 15px;
 }
 .home4{
@@ -99,6 +99,13 @@ header{
     padding: 1em;
     grid-auto-rows: minmax(100px);
     box-shadow: 5px 5px 10px #6f7364;
+}
+.smart-header >div{
+    background: #6f7364;
+}
+.smart-header{
+    box-shadow: 8px 8px 10px #1d5d4d;
+    
 }
 
 .wrapper1 > div{
